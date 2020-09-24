@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1011212285861",
+    "firebase_url": "https://pollutionmeter-9dcf6.firebaseio.com",
+    "project_id": "pollutionmeter-9dcf6",
+    "storage_bucket": "pollutionmeter-9dcf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011212285861:android:9f27031460fd55b59c1a4c",
+        "android_client_info": {
+          "package_name": "com.example.pollution_calc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011212285861-l98ok4f4diu9l73gfmrav2d2l2klsflm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pollution_calc",
+            "certificate_hash": "59f98928632de40b19df0e1c2367257cbcfe7de0"
+          }
+        },
+        {
+          "client_id": "1011212285861-kj11a3bl4blot79qc7hf5t7jlgr4qq04.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLCZlM3Crp-q4qHSyRyvhjEDyt1r3LKMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011212285861-kj11a3bl4blot79qc7hf5t7jlgr4qq04.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
