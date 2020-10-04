@@ -61,7 +61,19 @@ class _HomeScreenState extends State<Homescreen> {
                     children: [
                       Padding(
                         padding: const EdgeInsets.all(10.0),
-                        child: Text('This tree will Approximately: \n1)Releases water from ground each season enough to bath 2271 times.\n2)Absorb CO2: 450 km of average bike ride, 3832.5 hrs of laptop standby, 30 days of laptop on.\n\nDirect benefit(excluding medicinal and aesthetic values): \n1)69 iPhones, 14 Ducati Scrambler bikes, 2 Audis, 1 dream apartment in mumbai',style: TextStyle(fontSize: 23.0,fontFamily: 'SourceSansPro',color: Colors.teal.shade800),),
+                        child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,children: <Widget>[Container(width:200.0,child: Text("CarbonDioxide level increased to 414 ppm Global Temparature raised by 2 F since 1880",style: TextStyle(fontSize: 19.0,fontFamily: 'SourceSansPro',color: Colors.teal.shade800),),),Container(child: Image(image: AssetImage('images/heat.gif'),height: 65.0,))],),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,children: <Widget>[Container(width:200.0,child: Text("Releases water from ground each season enough to bath 2271 times.",style: TextStyle(fontSize: 19.0,fontFamily: 'SourceSansPro',color: Colors.teal.shade800),),),Container(child: Image(image: AssetImage('images/bath.gif'),height: 65.0,))],),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,children: <Widget>[Container(width:200.0,child: Text("Absorb CO2: 450 km of average bike ride, 3832.5 hrs of laptop standby, 30 days of laptop on.",style: TextStyle(fontSize: 19.0,fontFamily: 'SourceSansPro',color: Colors.teal.shade800),),),Container(child: Image(image: AssetImage('images/bike.gif'),height: 65.0,))],),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(10.0),
+                        child: Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,children: <Widget>[Container(width:200.0,child: Text("Direct benefit(excluding medicinal and aesthetic values) are worth upto 69 iPhones, 14 Ducati Scrambler bikes, 2 Audis, 1 dream apartment in mumbai",style: TextStyle(fontSize: 19.0,fontFamily: 'SourceSansPro',color: Colors.teal.shade800),),),Container(child: Image(image: AssetImage('images/money.gif'),height: 65.0,))],),
                       ),
                       SizedBox(
                           width: 320.0,
