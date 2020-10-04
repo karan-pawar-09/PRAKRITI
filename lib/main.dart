@@ -129,8 +129,10 @@ class _HomeScreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBodyBehindAppBar: true,
       appBar: AppBar(
-        backgroundColor: Colors.green.shade900,
+        backgroundColor: Color.fromRGBO(193, 66, 66, 0.30),
+        elevation: 1.0,
         title: Text('Prakriti'),
         actions: [
           RaisedButton(
@@ -139,14 +141,15 @@ class _HomeScreenState extends State<Homescreen> {
               Icons.add_a_photo,
               color: Colors.white,
             ),
-            color: Colors.green.shade900,
+            color: Colors.transparent,
+            elevation: 0.0,
           ),
         ],
       ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-              image: AssetImage('images/back.jpg'), fit: BoxFit.cover),
+              image: AssetImage('images/back.jpeg'), fit: BoxFit.cover),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -175,7 +178,8 @@ class _HomeScreenState extends State<Homescreen> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: Colors.green.shade900,
+        backgroundColor: Color.fromRGBO(193, 66, 66, 0.30),
+        elevation: 1.0,
         onPressed: labelsread,
         child: Icon(Icons.check),
       ),
